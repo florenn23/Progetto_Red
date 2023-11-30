@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Rajdhani:wght@400;500;600&display=swap');
+
+
+* {
+    font-family: 'Nova Square', cursive;
+    font-family: 'Rajdhani', sans-serif;
+}
+/* Color: darkred, #C67F7F, #ececec
+
+Font:  Nova Square, Rajdhani */
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .title {
+    font-size: 50px;
+    }
+   }
+   
+   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+   @media screen and (max-width: 600px) {
+    .title {
+    font-size: 30px;
+    }
+   }
+   
+:root {
+    --main-color: darkred,
+}
+body {
+    all: unset;
+}
+p {
+    color: #878787;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: darkred;
+    font-family: 'Nova Square', cursive;
+}
+
+h1 {
+    color: darkred;
+    font-family: 'Nova Square', cursive;
+}
+
+h3 {
+    font-size: 20px;
+    color: darkred;
+}
+
+.link-navbar {
+    font-family:  'Rajdhani', sans-serif;
+    color:  #878787;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration:none;
+}
+
+#header{
+    background: url(media/mountains2.png), linear-gradient(to bottom, white,rgba(255, 255, 255, 0)), url(media/switzerland-862870_1920.jpg);
+    background-position: center, top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+
+
+.title {
+    letter-spacing: 50px;
+    font-family: 'Nova Square', cursive;
+    color: darkred;
+
+}
+
+#main {
+    background-color: #ececec;
+    max-height: 100%;
+
+}
+
+.card {
+    width: 100%;
+    height: 200px;
+    background-color: #ececec;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    margin: 0;
+}
+
+
+#icon {
+    font-size: 2rem;
+    padding-bottom: 1rem;   
+}
+
+.linea-orizzontale {
+    width: 100%; /* Larghezza pari alla larghezza della finestra del browser */
+    height: 3px; /* Altezza della linea orizzontale */
+    background-color: darkred; /* Colore della linea */
+    left: 0; /* Posizione orizzontale a sinistra */
+    top: 50%; /* Posizione verticale al centro */
+}
+
+.cerchio {
+    width: 15px; /* Larghezza del cerchio */
+    height: 15px; /* Altezza del cerchio */
+    background-color: #fff; /* Colore del cerchio */
+    border: 1px solid darkred; /* Bordo rosso */
+    border-radius: 50%; /* Per rendere il cerchio */
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-10%, -35%); /* Per centrare il cerchio in base alle sue dimensioni */
+}
+
+#article1 {
+    background: url(media/trees2.png);
+    background-color: #ececec;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+
+.btn {
+    background-color: darkred;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 1%;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+#article2 {
+    background: url(media/single.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 20px;
+}
+
+.lista {
+    display: flex;
+}
+
+.linea-verticale {
+    border-left: 2px solid #000; /* Stile e colore della linea verticale */
+    margin-right: 20px; /* Spazio tra la linea e l'elenco */
+}
+
+ul {
+    padding: 0; /* Rimuove il padding predefinito dell'elenco */
+    margin: 0; /* Rimuove il margine predefinito dell'elenco */
+}
+
+li {
+    margin-bottom: 10px; /* Spazio tra i punti dell'elenco */
+}
+
+
+
+.timeline{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#team{
+    background-color: #ececec;
+}
+
+.img-team {
+    border: 2px solid darkred;
+    width: 160px;
+    height: 160px;
+}
+
+.img-feat {
+    border: 2px solid darkred;
+    width: 220px;
+    height: 220px;
+}
+#benefit{
+    background: url(media/other.png);
+    background-position: bottom;
+
+
+
+}
+
+
+#footer {
+    background-color: darkred;
+}
+
